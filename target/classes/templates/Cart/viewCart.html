@@ -23,7 +23,7 @@
             <a class="nav-link active" aria-current="page" th:href="@{/dashboard}">Home</a>
           </li>
           <li class="nav-item" style="padding: 15px">
-            <a class="nav-link active" th:href="@{/dashboard/menu}">Guitars</a>
+            <a class="nav-link active" th:href="@{/dashboard/menu}">Bikes</a>
           </li>
           <li class="nav-item" style="padding: 15px">
             <a class="nav-link active" th:href="@{/cart/list}">My Cart</a>
@@ -70,10 +70,10 @@
         </thead>
         <tbody th:each="cart:${carts}">
         <tr>
-          <td th:text="${cart.item.itemName}">Fender</td>
-          <td th:text="${cart.item.itemPrice}">$1987</td>
-          <td th:text="${cart.cartQty}">2</td>
-          <td th:text="${cart.totalPrice}">$2548</td>
+          <td th:text="${cart.item.itemName}">CBR 600 RR</td>
+          <td th:text="${cart.item.itemPrice}">$3500</td>
+          <td th:text="${cart.cartQty}">1</td>
+          <td th:text="${cart.totalPrice}">$3500</td>
           <td>
             <div class="row">
               <div class="col-2">
@@ -185,9 +185,9 @@
       <div class="footer-col">
         <h4>online shop</h4>
         <ul>
-          <li><a href="#">Electronic Guitar</a></li>
-          <li><a href="#">Acuostic Guitar</a></li>
-          <li><a href="#">Semi-Acuostic Guitar</a></li>
+          <li><a href="#">Electronic Bikes</a></li>
+          <li><a href="#">Acuostic Bikes</a></li>
+          <li><a href="#">Semi-Acuostic Bikes</a></li>
         </ul>
       </div>
       <div class="footer-col">
